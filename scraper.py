@@ -18,9 +18,9 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    # server.login('ashishshajisrampickal@gmail.com','')
+    # server.login('','')
     subject = 'Price fell down'
-    body = 'check the amazon link'
+    body = 'check the amazon link https://www.amazon.in/Redmi-Note-Pebble-Grey-Storage/dp/B086977TR6/ref=sr_1_2?dchild=1&keywords=REDMI&qid=1605014171&sr=8-2'
     msg = f"Subject:{subject}\n\n{body}"
     server.sendmail(
         'ashishshajisrampickal@gmail.com',
